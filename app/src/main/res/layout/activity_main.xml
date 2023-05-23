@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/main_EDT_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_weight="1.8"
+                android:hint="Email"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold">
+            </EditText>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/main_BTN_checkMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:text="Check"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:backgroundTint="#3CC7FF">
+
+            </com.google.android.material.button.MaterialButton>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <EditText
+            android:id="@+id/main_EDT_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_weight="1.8"
+            android:hint="Phone"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textColorHint="@color/black"
+            android:textStyle="bold">
+        </EditText>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/main_BTN_checkPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:text="Check"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:backgroundTint="#3CC7FF">
+
+        </com.google.android.material.button.MaterialButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <EditText
+            android:id="@+id/main_EDT_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_weight="1.8"
+            android:hint="Name"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textColorHint="@color/black"
+            android:textStyle="bold">
+        </EditText>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/main_BTN_checkName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:text="Check"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:backgroundTint="#3CC7FF">
+
+        </com.google.android.material.button.MaterialButton>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/main_EDT_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_weight="1.8"
+                android:hint="Age"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold">
+            </EditText>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/main_BTN_checkAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:text="Check"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:backgroundTint="#3CC7FF">
+
+            </com.google.android.material.button.MaterialButton>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/main_EDT_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_weight="1.8"
+                android:hint="Password"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold">
+            </EditText>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/main_BTN_checkPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:text="Check"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:backgroundTint="#3CC7FF">
+
+            </com.google.android.material.button.MaterialButton>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/main_EDT_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_weight="1.8"
+                android:hint="Date"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold">
+            </EditText>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/main_BTN_checkDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:text="Check"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:backgroundTint="#3CC7FF">
+
+            </com.google.android.material.button.MaterialButton>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
